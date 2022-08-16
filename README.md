@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
 
-![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
+![Design preview for the Easybank landing page coding challenge](./public/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -25,13 +25,13 @@ Want some support on the challenge? [Join our Slack community](https://www.front
 
 ## Where to find everything
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+Your task is to build out the project to the designs inside the `/public/design` folder. You will find both a mobile and a desktop version of the design. 
 
 The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`. 
 
 If you would like the design files (we provide Sketch & Figma versions) to inspect the design in more detail, you can [subscribe as a PRO member](https://www.frontendmentor.io/pro).
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+You will find all the required assets in the `/public/images` folder. The assets are already optimized.
 
 There is also a `style-guide.md` file containing the information you'll need, such as color palette and fonts.
 
@@ -90,3 +90,28 @@ We love receiving feedback! We're always looking to improve our challenges and o
 This challenge is completely free. Please share it with anyone who will find it useful for practice.
 
 **Have fun building!** 🚀
+
+# easybank-landing-page
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
