@@ -30,15 +30,18 @@
     gap: 4.8rem;
     & img {
       //filter: brightness(100);
-      fill: $color-neutral-white;
-      fill-opacity: 1;
+      //fill: $color-neutral-white;
+      //fill-opacity: 1;
+      background-color: $color-neutral-white;
+      padding: 1rem;
+      border-radius: 1rem;
     }
   }
   &__links {
     grid-column: 2 / 4;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2.4rem;
+    gap: 2.4rem 6.4rem;
     &:nth-child(odd) {
       grid-column: 2 / 3;
     }

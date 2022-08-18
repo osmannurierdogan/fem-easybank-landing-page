@@ -7,6 +7,8 @@
   &:link,
   &:visited {
     color: $color-neutral-light-grayish-blue;
+    font-weight: $font-weight-light;
+    font-size: 1.6rem;
   }
 }
 </style>
