@@ -1,6 +1,10 @@
 <template>
   <div class="navigation">
-    <img class="navigation__logo" src="@/assets/images/logo.svg" alt="" />
+    <img
+      class="navigation__logo"
+      src="@/assets/images/logo.svg"
+      alt="Easybank Logo"
+    />
     <NavigationList />
     <RequestInviteButton />
   </div>
@@ -22,11 +26,11 @@ export default {
 @import "@/assets/scss/_shared.scss";
 .navigation {
   position: relative;
-  z-index: 999;
+  z-index: 250;
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: $color-neutral-white;
-  padding: 1.5rem auto;
+  //padding: 1.5rem 0;
 }
 </style>

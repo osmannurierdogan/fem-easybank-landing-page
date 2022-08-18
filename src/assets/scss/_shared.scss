@@ -28,12 +28,16 @@ $font-weight-bold: 700;
   text-decoration: none;
 }
 html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-size: 62.5%;
 }
 body {
   font-family: $font-family;
   font-size: $font-size;
   color: $color-primary-dark-blue;
+  //position: relative;
 }
 a,
 a:visited,
@@ -57,7 +61,8 @@ a:active {
 }
 .container {
   width: 130rem;
-  margin: 1rem auto;
+  //margin: 1rem auto;
+  margin: 0 auto;
   &__fluid {
     width: 100%;
   }
@@ -66,4 +71,7 @@ a:active {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+.move-up {
+  margin-top: -12rem;
 }

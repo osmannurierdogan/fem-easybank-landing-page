@@ -23,5 +23,8 @@ export default {
   color: $color-neutral-white;
   font-weight: $font-weight-bold;
   cursor: pointer;
+  /* text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.6rem; */
 }
 </style>
